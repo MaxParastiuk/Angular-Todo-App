@@ -1,0 +1,11 @@
+<div class="app container">
+  <header>
+    <h1 class="main__title">Todo List</h1>
+  </header>
+  <app-todos
+    [todos]="todos"
+    (submitTodo)="onAddTodo($event)"
+    (deleteTodoById)="onDeleteTodo($event)"
+    (updateTodo)="onUpdateTodo($event)"
+  ></app-todos>
+</div>

@@ -1,0 +1,66 @@
+.todos {
+  margin-top: 50px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.todos__list {
+  display: flex;
+  justify-content: space-between;
+  background-color: yellow;
+  list-style: none;
+  margin-top: 20px;
+  border-radius: 4px;
+}
+
+.form__input {
+  padding: 10px;
+  font-size: 16px;
+  background-color: beige;
+  border: none;
+  margin-bottom: 10px;
+}
+
+.submit__btn {
+  width: 30%;
+  padding: 10px 5px;
+  align-self: center;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: #fcffdcdd;
+  border: none;
+  cursor: pointer;
+}
+
+.submit__btn:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.submit__btn:active {
+  box-shadow: 0px 4px 8px rgba(darken(dodgerblue, 30%));
+  transform: scale(0.98);
+}
+
+.list__item {
+  padding: 10px 20px;
+  align-self: center;
+  font-weight: 600;
+}
+
+.done {
+  background-color: rgb(127, 255, 155);
+}
+
+.btn__delete {
+  background-color: #ff5252;
+  color: white;
+  padding: 10px 10px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 15px 15px;
+  border: none;
+  border-radius: 2px;
+}
